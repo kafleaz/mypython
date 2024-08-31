@@ -1,11 +1,5 @@
-from flask import Flask
-
-app = Flask(__name__)
-
-@app.route('/')
-def hello_world():
-    return 'Hello, World!'
-
-if __name__ == '__main__':
-    app.run(debug=True)
-
+print("Content-type: text/html")
+print()
+print("<html><body>")
+print("<h1>Hello from Python!</h1>")
+print("</body></html>")
